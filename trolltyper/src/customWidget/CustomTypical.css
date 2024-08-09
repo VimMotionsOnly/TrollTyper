@@ -1,0 +1,17 @@
+.typer-container h2 {
+  color: rgba(0, 194, 0, 0.829);
+}
+
+.typer-container .error {
+  color: red;
+  text-decoration: line-through;
+}
+.typer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  font-size: 3em;
+  padding-top: 20px;
+  font-weight: bold;
+}
