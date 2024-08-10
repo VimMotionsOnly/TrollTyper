@@ -1,0 +1,12 @@
+.loginBox {
+    padding: 12px;
+    border: 2px solid aliceblue;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.loginBox > input:hover {
+    border-color: crimson;
+    transition: border-color 0.25s;
+}

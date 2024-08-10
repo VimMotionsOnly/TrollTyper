@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import './index.css'
+import './css/index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import Dashboard from './pages/Dashboard';
@@ -13,6 +13,7 @@ import PasswordResetPage from './pages/PasswortReset';
 import RegistrationPage from './pages/RegistrationPage';
 import SettingsPage from './pages/SettingsPage';
 import NotFoundPage from './pages/404Page';
+import Navbar from "./customWidget/Navbar.tsx";
 
 const router = createBrowserRouter([
   {
@@ -61,6 +62,7 @@ export default router;
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <Navbar />
     <RouterProvider router={router} />
 
     <App />

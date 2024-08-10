@@ -1,5 +1,5 @@
 import Typical from "react-typical"
-import './CustomTypical.css'
+import '../css/CustomTypical.css'
 
 
 function CustomTypical() {
