@@ -4,9 +4,22 @@
     border-radius: 6px;
     display: flex;
     flex-flow: column nowrap;
+    place-items: center;
+    margin: 12px;
+}
+
+.loginBox:hover {
+    border-color: crimson;
+    transition: 0.25s;
 }
 
 .loginBox > input:hover {
     border-color: crimson;
     transition: border-color 0.25s;
+}
+
+.mainContainer {
+    display: flex;
+    place-items: center;
+    flex-flow: column nowrap;
 }

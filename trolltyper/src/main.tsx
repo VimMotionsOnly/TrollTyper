@@ -63,7 +63,7 @@ export default router;
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Navbar />
-    <RouterProvider router={router} />
+    <RouterProvider router={router}/>
 
     <App />
 

@@ -7,3 +7,19 @@
     border: 2px solid aliceblue;
     padding: 12px;
 }
+
+.navbar:hover {
+    border-color: crimson;
+    transition: 0.25s;
+}
+
+.navButtons {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navButtons > * {
+    margin: 8px;
+}

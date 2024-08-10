@@ -8,11 +8,11 @@ const Dashboard = () => {
       </div>
     </header>
       <div className="dashboardContent">
-        <a href="/lobby/create">
+        <a href="/lobby/create" className="dashboardSelectButton">
         <div className="card">
             Create Document
         </div></a>
-        <a href="lobby-list">
+        <a href="/lobby-list" className="dashboardSelectButton">
         <div className="card">
             Work on a Document
         </div>

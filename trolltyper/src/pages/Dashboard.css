@@ -1,31 +1,27 @@
-* {
-  overflow: hidden;
-  width: 100%;
-  align-items: center;
-}
-
 header {
-
   display: flex;
-  background-color: #4a90e2;
-
-  color: white;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: bold;
+  border-radius: 6px;
+  border-bottom: 2px solid aliceblue;
+  border-left: 2px solid aliceblue;
+  border-right: 2px solid aliceblue;
+}
 
+header:hover {
+  border-color: crimson;
+  transition: 0.25s;
 }
 
 .dashboardContent{
   display: flex;
-
-  flex-direction: column;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-size: 3em;
+  font-size: 2em;
   padding-top: 20px;
   font-weight: bold;
   margin: auto;
@@ -33,21 +29,23 @@ header {
 
 .card {
   width: 40%;
-  margin: 20px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: rgb(91, 8, 8);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  border: 2px solid aliceblue;
 }
 
-a {
+.card:hover {
+  border-color: crimson;
+  transition: 0.25s;
+}
+
+.dashboardSelectButton {
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   color: white;
+  margin: 20px;
+  width: 40vw;
 }
