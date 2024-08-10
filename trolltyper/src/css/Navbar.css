@@ -1,0 +1,9 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    border: 2px solid aliceblue;
+    padding: 12px;
+}
