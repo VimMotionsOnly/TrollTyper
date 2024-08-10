@@ -1,13 +1,26 @@
+import React, { useState } from 'react';
 
+function CustomButton() {
+  const [position, setPosition] = useState({ top: '50%', left: '50%' });
 
-function CumstomButton() {
+  const moveButton = () => {
+    const newTop = Math.random() * 90 + '%';
+    const newLeft = Math.random() * 90 + '%';
+    setPosition({ top: newTop, left: newLeft });
+  };
+
   return (
-  <a href="/login">
-  <button>
-    Start
-    </button>
-    </a>
-    );
+    <div style={{ position: 'relative', width: '100%', height: '100vh' }}>
+      <a href="/login">
+        <button
+          style={{ position: 'absolute', top: position.top, left: position.left }}
+          onMouseEnter={moveButton}
+        >
+          Start
+        </button>
+      </a>
+    </div>
+  );
 }
 
-export default CumstomButton;
+export default CustomButton;
