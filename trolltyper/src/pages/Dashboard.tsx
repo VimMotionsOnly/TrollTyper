@@ -12,7 +12,7 @@ const Dashboard = () => {
         <div className="card">
             Create Document
         </div></a>
-        <a href="/lobby-list" className="dashboardSelectButton">
+        <a href="/document-editor" className="dashboardSelectButton">
         <div className="card">
             Work on a Document
         </div>

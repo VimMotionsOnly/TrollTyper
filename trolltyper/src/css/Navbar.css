@@ -6,6 +6,7 @@
     border-radius: 6px;
     border: 2px solid aliceblue;
     padding: 12px;
+    height: 8vh;
 }
 
 .navbar:hover {

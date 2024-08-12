@@ -1,0 +1,30 @@
+.sidebar {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    border-radius: 6px;
+    border: 2px solid aliceblue;
+    padding: 12px;
+    height: 84vh;
+}
+
+.sidebar:hover {
+    border-color: crimson;
+    transition: 0.25s;
+}
+
+.clientCard {
+    border-radius: 6px;
+    border: 2px solid aliceblue;
+    padding: 6px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.clientCard:hover {
+    border-color: crimson;
+    transition: 0.25s;
+}

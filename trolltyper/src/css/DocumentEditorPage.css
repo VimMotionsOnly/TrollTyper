@@ -1,0 +1,33 @@
+.documentEditorContainer {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    height: 100%;
+}
+
+.documentContentContainer {
+    border-radius: 6px;
+    border: 2px solid aliceblue;
+    padding: 8px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.documentContentContainer:hover {
+    border-color: crimson;
+    transition: 0.25s;
+}
+
+#documentTextArea {
+    height: 99%;
+    width: 99%;
+    padding: 4px;
+    resize: none;
+    background-color: #232323;
+    color: aliceblue;
+}
+
+#documentTextArea:hover {
+    border-color: crimson;
+    transition: 0.25s;
+}
